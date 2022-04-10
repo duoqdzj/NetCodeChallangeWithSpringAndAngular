@@ -41,6 +41,7 @@ public class CustomersAnswers {
 	}
 
 	public CustomersAnswers(Integer id, String customer_id, String radio4, String radio5, String radio6) {
+		super();
 		this.id = id;
 		this.customer = customer;
 		this.radio4 = radio4;
